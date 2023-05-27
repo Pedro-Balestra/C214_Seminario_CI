@@ -59,3 +59,11 @@ class TestCarrinhoCompras(unittest.TestCase):
     def test_calcular_total_Wesley(self):
         total_esperado = 4499.99 + 5499.99 + 4999.99 + 130000.0
         self.assertEqual(self.carrinhoCl3.calcular_total(), total_esperado)
+
+    def test_erro_W(self):
+        total_esperado = 5499.99 + 4999.99 + 130000.0
+        self.assertNotEquals(self.carrinhoCl3.calcular_total(), total_esperado)
+
+    def test_erro_We(self):
+        total_esperado = 4479.99 + 5499.99 + 4999.99 + 130000.0
+        self.assertNotEquals(self.carrinhoCl3.calcular_total(), total_esperado)
