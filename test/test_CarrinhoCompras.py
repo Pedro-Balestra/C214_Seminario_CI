@@ -1,7 +1,7 @@
 import unittest
-from Cliente import Cliente
-from Produto import Produto
-from CarrinhoCompras import CarrinhoCompras
+from cliente import Cliente
+from produto import Produto
+from carrinhoCompras import CarrinhoCompras
 
 
 class TestCarrinhoCompras(unittest.TestCase):
@@ -59,3 +59,6 @@ class TestCarrinhoCompras(unittest.TestCase):
     def test_calcular_total_Wesley(self):
         total_esperado = 4499.99 + 5499.99 + 4999.99 + 130000.0
         self.assertEqual(self.carrinhoCl3.calcular_total(), total_esperado)
+
+if __name__ == '__name__':
+    unittest.main()
