@@ -1,12 +1,9 @@
-from CarrinhoCompras import CarrinhoCompras
-from Cliente import Cliente
-from Produto import Produto
+from carrinhoCompras import CarrinhoCompras
+from cliente import Cliente
+from produto import Produto
 import unittest
 
 if __name__ == '__main__':
-
-    unittest.main()
-
     cliente1 = Cliente(1, "Pedro Balestra", "123.456.789-00", "(35) 9 9999-9999", "pedro.balestra@gec.inatel.br")
     cliente2 = Cliente(2, "Thiago Miguel", "456.789.123-00", "(35) 9 8888-8888", "thiago.miguel@gec.inatel.br")
     cliente3 = Cliente(3, "Wesley Marcos", "789.123.456-00", "(35) 9 7777-7777", "wesley.marcos@gec.inatel.br")
