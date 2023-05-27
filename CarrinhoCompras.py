@@ -23,4 +23,4 @@ class CarrinhoCompras:
         for produto in self.produtos:
             print(produto)
 
-        print("\nTotal da Compra: R$", self.calcular_total())
+        print(f"\nTotal da Compra: R${self.calcular_total():.2f}")
