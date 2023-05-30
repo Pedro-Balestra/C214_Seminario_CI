@@ -95,7 +95,3 @@ class TestCarrinhoCompras(unittest.TestCase):
 
     def test_carrinho_Nvazio_Wesley(self):
         self.assertNotEqual(len(self.carrinhoCl3.produtos),0)   
-
-if __name__ == '__main__':
-    unittest.main()
-

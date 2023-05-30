@@ -1,7 +1,8 @@
-from carrinhoCompras import CarrinhoCompras
-from cliente import Cliente
-from produto import Produto
+from funcs.carrinhoCompras import CarrinhoCompras
+from funcs.cliente import Cliente
+from funcs.produto import Produto
 import unittest
+
 
 if __name__ == '__main__':
     cliente1 = Cliente(1, "Pedro Balestra", "123.456.789-00", "(35) 9 9999-9999", "pedro.balestra@gec.inatel.br")
