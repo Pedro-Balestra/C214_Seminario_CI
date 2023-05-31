@@ -1,7 +1,7 @@
 import unittest
-from funcs.cliente import Cliente
-from funcs.produto import Produto
-from funcs.carrinhoCompras import CarrinhoCompras
+from cliente import Cliente
+from produto import Produto
+from carrinhoCompras import CarrinhoCompras
 
 
 class TestCarrinhoCompras(unittest.TestCase):

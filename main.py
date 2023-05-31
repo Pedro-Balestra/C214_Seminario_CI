@@ -1,6 +1,6 @@
-from funcs.carrinhoCompras import CarrinhoCompras
-from funcs.cliente import Cliente
-from funcs.produto import Produto
+from carrinhoCompras import CarrinhoCompras
+from cliente import Cliente
+from produto import Produto
 import unittest
 
 
