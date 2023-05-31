@@ -3,10 +3,10 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-name = "carrinhocompraTHIAGOMIGUEL7"
+name = "carrinhocompraWESLEY-MARCOS"
 version = "0.0.1"
 authors = [
-  { name = "Thiago", email = "thiago.miguel@gec.inatel.com" }
+  { name = "Wesley", email = "wesley.marcos@gec.inatel.br" }
 ]
 
 description = "A small example package"
@@ -19,6 +19,6 @@ classifiers = [
 ]
 
 [project.urls]
-homepage = "https://github.com/ThiagoMiguel7/-C214-Seminario_CI"
-bug-tracker = "https://github.com/ThiagoMiguel7/-C214-Seminario_CI"
+homepage = "https://github.com/wesley-marcos/C214_Seminario_CI"
+bug-tracker = "https://github.com/wesley-marcos/C214_Seminario_CI"
 
